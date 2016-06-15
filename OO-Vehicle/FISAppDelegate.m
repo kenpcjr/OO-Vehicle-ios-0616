@@ -14,6 +14,21 @@
 {
 
     // Override point for customization after application launch.
+    
+    FISRaceCar *speedy = [[FISRaceCar alloc]init];
+    [speedy turnRight];
+    [speedy turnRight];
+    [speedy turnRight];
+    [speedy turnRight];
+    //[speedy turnRight];
+    
+    
+    
+    
+    NSLog(@"The car is facing %f degrees.",speedy.currentDirection
+          );
+    
+   
 
     return YES;
 }
